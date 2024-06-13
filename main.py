@@ -1,12 +1,14 @@
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 
-root = ttk.Window()
+class Mine_sweeper(ttk.Tk):
+    def __init__(self):
+        self.board_size = 10
+        self.bombs_amount = 13
+        self.root = ttk.Window()
 
-b1 = ttk.Button(root, text="Button 1", bootstyle=SUCCESS)
-b1.pack(side=LEFT, padx=5, pady=10)
+    def intro(self):
+        pass
 
-b2 = ttk.Button(root, text="Button 2", bootstyle=(INFO, OUTLINE))
-b2.pack(side=LEFT, padx=5, pady=10)
-
-root.mainloop()
+    def create_board(self):
+        pass
