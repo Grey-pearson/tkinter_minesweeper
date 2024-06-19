@@ -8,6 +8,8 @@ black = pygame.Color(0, 0, 0)
 
 font = pygame.font.Font("imgs/UniversLTStd-BoldEx.otf", 18)
 
+bomb = pygame.image.load("imgs/bomb.png")
+
 blockSurf = pygame.image.load("imgs/block.png")
 blockSurfSel = pygame.image.load("imgs/selblock.png")
 blockSurfBlank = pygame.image.load("imgs/blankblock.png")
@@ -27,7 +29,7 @@ question = pygame.image.load("imgs/question.png")
 clock = pygame.image.load("imgs/time.png")
 
 # game settings
-TITLE = "Mob2Play"
+TITLE = "Minesweeper"
 
 WIDTH = 1280
 HEIGHT = 720
