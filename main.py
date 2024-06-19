@@ -35,3 +35,5 @@ flag = pygame.image.load("imgs/flag.png")
 question = pygame.image.load("imgs/question.png")
 
 clock = pygame.image.load("imgs/time.png")
+
+
